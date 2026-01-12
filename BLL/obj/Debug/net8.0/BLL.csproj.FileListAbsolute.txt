@@ -13,3 +13,4 @@ E:\Advvanced .Net with C#\3TierArchi\BLL\obj\Debug\net8.0\BLL.dll
 E:\Advvanced .Net with C#\3TierArchi\BLL\obj\Debug\net8.0\refint\BLL.dll
 E:\Advvanced .Net with C#\3TierArchi\BLL\obj\Debug\net8.0\BLL.pdb
 E:\Advvanced .Net with C#\3TierArchi\BLL\obj\Debug\net8.0\ref\BLL.dll
+E:\Advvanced .Net with C#\3TierArchi\BLL\obj\Debug\net8.0\BLL.sourcelink.json

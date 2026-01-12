@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "4b+Uf/Xh0Uk=",
+  "dgSpecHash": "rMJYlGJPiqo=",
   "success": true,
   "projectFilePath": "E:\\Advvanced .Net with C#\\3TierArchi\\BLL\\BLL.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Asus\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

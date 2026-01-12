@@ -12,3 +12,4 @@ E:\Advvanced .Net with C#\3TierArchi\DAL\obj\Debug\net8.0\ref\DAL.dll
 E:\Advvanced .Net with C#\3TierArchi\DAL\bin\Debug\net8.0\DAL.runtimeconfig.json
 E:\Advvanced .Net with C#\3TierArchi\DAL\obj\Debug\net8.0\DAL.csproj.AssemblyReference.cache
 E:\Advvanced .Net with C#\3TierArchi\DAL\obj\Debug\net8.0\DAL.genruntimeconfig.cache
+E:\Advvanced .Net with C#\3TierArchi\DAL\obj\Debug\net8.0\DAL.sourcelink.json

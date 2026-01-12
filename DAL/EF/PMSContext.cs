@@ -10,7 +10,7 @@ namespace DAL.EF
 {
 	public class PMSContext : DbContext
 	{
-		public PMSContext(DbContextOptions<PMSContext> opt): base(opt) { } //constructor to  receive all the database configuration(provider, connection string, options)
+		public PMSContext(DbContextOptions<PMSContext> opt): base(opt) { } //constructor to  receive all the database configuration from DI(provider, connection string, options)
 
 
 		//Mapping all the tables
