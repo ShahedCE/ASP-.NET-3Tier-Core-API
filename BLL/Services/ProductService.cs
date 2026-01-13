@@ -11,8 +11,10 @@ namespace BLL.Services
 {
 	public class ProductService
 	{
-		ProductRepo repo;
-		public ProductService(ProductRepo repo)
+		//ProductRepo repo;
+		Repository<Product> repo; //Using Generic Repository
+
+		public ProductService(Repository<Product> repo)
 		{
 			this.repo = repo;
 		}

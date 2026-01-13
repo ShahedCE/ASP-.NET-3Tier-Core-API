@@ -36,5 +36,18 @@ namespace APIApp.Controllers
 			var res= service.Create(p);
 			return Ok(res);
 		}
+		[HttpPost("update")]
+		public IActionResult Update(ProductDTO p)
+		{
+			var res = service.Update(p);
+			return Ok(res);
+		}
+
+		[HttpDelete("delete/{id}")]
+		public IActionResult Delete(int id)
+		{
+			var res= service.Detele(id);
+			return Ok(res);
+		}
 	}
 }

@@ -15,6 +15,7 @@ builder.Services.AddScoped<ProductService>(); // DI, Registering ProductService 
 builder.Services.AddScoped<ProductRepo>(); // DI, Registering ProductRepo for Dependency Injection
 builder.Services.AddScoped<CategoryService>(); // DI, Registering CategoryService for Dependency Injection
 builder.Services.AddScoped<CategoryRepo>(); // DI, Registering CategoryRepo for Dependency Injection
+builder.Services.AddScoped(typeof(Repository<>)); // DI, Registering Generic Repository for Dependency Injection
 builder.Services.AddDbContext<PMSContext>(opt =>
 {
     opt.UseSqlServer(builder.Configuration.GetConnectionString("DbConn")); // DI, Telling PMSContext to use SQL Server with connection string from appsettings.json
