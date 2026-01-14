@@ -1,27 +1,22 @@
 ﻿using BLL.DTOs;
+using DAL;
 using DAL.EF.Models;
-using DAL.Repos;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BLL.Services
 {
 	public class ProductService
 	{
-		//ProductRepo repo;
-		Repository<Product> repo; //Using Generic Repository
+		DataAccessFactory factory;
+	//	Repository<Product> factory.ProductData(); //Using Generic repository
 
-		public ProductService(Repository<Product> repo)
+		public ProductService(DataAccessFactory factory)
 		{
-			this.repo = repo;
+			this.factory = factory;
 		}
 
 		public List<ProductDTO> Get()
 		{
-			var data = repo.Get();// call Get() of DAL and get all the modeldata first 
+			var data = factory.ProductData().Get();// call Get() of DAL and get all the modeldata first 
 			var mapper= MapperConfig.GetMapper(); 
 			var datadto= mapper.Map<List<ProductDTO>>(data); //Convert second
 
@@ -31,26 +26,26 @@ namespace BLL.Services
 
 		public ProductDTO Get(int id)
 		{
-			var data = repo.Get(id);
+			var data = factory.ProductData().Get(id);
 			return MapperConfig.GetMapper().Map<ProductDTO>(data);
 		}
 
 		public bool Create(ProductDTO p)
 		{
 			var modeldata = MapperConfig.GetMapper().Map<Product>(p);
-			return repo.Create(modeldata); 
+			return factory.ProductData().Create(modeldata); 
 			
 		}
 
 		public bool Update(ProductDTO data)
 		{
 			var modeldata = MapperConfig.GetMapper().Map<Product>(data);
-			return repo.Update(modeldata);
+			return factory.ProductData().Update(modeldata);
 		}
 
 		public bool Detele(int id)
 		{
-			return repo.Delete(id);
+			return factory.ProductData().Delete(id);
 		}
 		
 	}

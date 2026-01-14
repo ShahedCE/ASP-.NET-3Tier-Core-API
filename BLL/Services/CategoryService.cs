@@ -1,4 +1,5 @@
 ﻿using BLL.DTOs;
+using DAL;
 using DAL.EF.Models;
 using DAL.Repos;
 using System;
@@ -11,10 +12,10 @@ namespace BLL.Services
 {
 	public class CategoryService
 	{
-		CategoryRepo repo;
-		public CategoryService(CategoryRepo repo) // Receiving the CategoryRepo instance from DI container
+		DataAccessFactory factory;  //Dependency Inversion 
+		public CategoryService(DataAccessFactory factory) // Receiving the Repon instance from DI container
 		{
-			this.repo = repo;  
+			this.factory = factory;  
 		}
 		//repo holding the CtegoryRepo datasource methods
 
@@ -22,7 +23,7 @@ namespace BLL.Services
 		//Get all categories for Presentation Layer
 		public List <CategoryDTO> Get()
 		{
-			var data = repo.Get();
+			var data = factory.CategoryData().Get();
 			var mapper = MapperConfig.GetMapper();
 			var datadto = mapper.Map<List<CategoryDTO>>(data); //Converting List<Category> to List<CategoryDTO> for the Presentation Layer
 
@@ -32,7 +33,7 @@ namespace BLL.Services
 		//Get category by id for Presentation Layer
 		public CategoryDTO Get (int id)
 		{
-			var data = repo.Get(id);
+			var data = factory.CategoryData().Get(id);
 			var datadto = MapperConfig.GetMapper().Map<CategoryDTO>(data); // Model to DTO conversion
 			//return MapperConfig.GetMapper().Map<CategoryDTO>(repo.Get(id));
 
@@ -44,7 +45,7 @@ namespace BLL.Services
 			var mapper = MapperConfig.GetMapper();
 			var data = mapper.Map<Category>(c); // Receive CategoryDTO from Application Layer and converting to Category model for DAL to Insert in the table
 
-			return repo.Create(data);
+			return factory.CategoryData().Create(data);
 		}
 
 		public bool Update(CategoryDTO c)
@@ -52,12 +53,12 @@ namespace BLL.Services
 			var mapper = MapperConfig.GetMapper();
 			var data = mapper.Map<Category>(c); // Receive CategoryDTO from Application Layer and converting to Category model for DAL
 
-			return repo.Update(data);
+			return factory.CategoryData().Update(data);
 		}
 
 		public bool Delete(int id)
 		{
-			return repo.Delete(id);
+			return factory.CategoryData().Delete(id);
 		}
 
 	}

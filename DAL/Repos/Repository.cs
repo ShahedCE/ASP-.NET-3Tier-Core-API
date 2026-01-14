@@ -10,25 +10,19 @@ namespace DAL.Repos
 {
 	public class Repository <T> where T : class
 	{
-
 		DbSet<T> table;
 		PMSContext db;
-
 		public Repository(PMSContext db)
 		{
 			this.db = db;
 			table= db.Set<T>();	
 		}
-
-		
-
 		public List<T> Get()
 		{
 			var data= table.ToList();
 			return data;
 
 		}
-
 		public T Get(int id)
 		{
 			var data = table.Find(id);

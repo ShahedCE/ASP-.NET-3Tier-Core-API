@@ -1,4 +1,5 @@
 using BLL.Services;
+using DAL;
 using DAL.EF;
 using DAL.Repos;
 using Microsoft.EntityFrameworkCore;
@@ -12,9 +13,10 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<ProductService>(); // DI, Registering ProductService for Dependency Injection
-builder.Services.AddScoped<ProductRepo>(); // DI, Registering ProductRepo for Dependency Injection
+//builder.Services.AddScoped<ProductRepo>(); // DI, Registering ProductRepo for Dependency Injection
 builder.Services.AddScoped<CategoryService>(); // DI, Registering CategoryService for Dependency Injection
-builder.Services.AddScoped<CategoryRepo>(); // DI, Registering CategoryRepo for Dependency Injection
+builder.Services.AddScoped<DataAccessFactory>(); // DI, Registering CategoryRepo for Dependency Injection
+builder.Services.AddScoped<CategoryRepoFile>(); // DI, Registering CategoryRepoFile for Dependency Injection
 builder.Services.AddScoped(typeof(Repository<>)); // DI, Registering Generic Repository for Dependency Injection
 builder.Services.AddDbContext<PMSContext>(opt =>
 {
