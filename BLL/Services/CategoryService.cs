@@ -23,13 +23,16 @@ namespace BLL.Services
 		//Get all categories for Presentation Layer
 		public List <CategoryDTO> Get()
 		{
+			
 			var data = factory.CategoryData().Get();
+			var count = data.Count;
+			Console.WriteLine("Total Category: "+count);
 			var mapper = MapperConfig.GetMapper();
 			var datadto = mapper.Map<List<CategoryDTO>>(data); //Converting List<Category> to List<CategoryDTO> for the Presentation Layer
 
 			return datadto;
 		}
-
+	
 		//Get category by id for Presentation Layer
 		public CategoryDTO Get (int id)
 		{
@@ -61,5 +64,21 @@ namespace BLL.Services
 			return factory.CategoryData().Delete(id);
 		}
 
+		//Features...........
+		public List<CategoryProductDTO> GetWithProducts()
+		{
+			var data = factory.CategoryFeature().GetWithProducts();
+			var mapper = MapperConfig.GetMapper();
+			var datadto = mapper.Map<List<CategoryProductDTO>>(data); //Converting List<Category> to List<CategoryDTO> for the Presentation Layer
+			return datadto;
+		}
+
+		/*public CategoryProductDTO FindByNameWithProducts(string name)
+		{
+			var data = factory.CategoryFeature().FindByNameWitProducts(name);
+			var mapper = MapperConfig.GetMapper();
+			var datadto = mapper.Map<CategoryProductDTO>(data); //Converting List<Category> to List<CategoryDTO> for the Presentation Layer
+			return datadto;
+		}*/
 	}
 }

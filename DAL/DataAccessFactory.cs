@@ -27,5 +27,10 @@ namespace DAL
 		{
 			return new ProductRepo(db); //Returning ProductRepo object which implements IRepository
 		}
+
+		public ICategoryFeature CategoryFeature()
+		{
+			return new CategoryRepo(db); //Returning CategoryRepo object which implements ICategoryFeature
+		}
 	}
 }

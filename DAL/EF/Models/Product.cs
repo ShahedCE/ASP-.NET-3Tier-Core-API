@@ -16,9 +16,12 @@ namespace DAL.EF.Models
 		public string Name { get; set; }
 		public decimal Price { get; set; }
 		public int  Quantity { get; set; }
-							
+
+		//One to One relationship with Product to Category
+		//One Product has one Category
+
 		[ForeignKey("Category")] //Specifies that CId is a foreign key for the Category navigation property
-		public int CId { get; set; } // or direct CategoryId foreign key property
+		public int CId { get; set; } // or direct CategoryId foreign key property 
 
 		public virtual Category Category { get; set; } //Navigation property, makes the relationship
 

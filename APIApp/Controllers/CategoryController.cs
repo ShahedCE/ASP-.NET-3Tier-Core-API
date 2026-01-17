@@ -74,5 +74,14 @@ namespace APIApp.Controllers
 				return BadRequest(new { Msg = "Category Deletion Failed" });
 			}
 		}
+
+		[HttpGet("all/withproducts")]
+		public IActionResult GetCategoriesWithProducts()
+		{
+			var data = service.GetWithProducts();
+			return Ok(data);
+		}
+
+	
 	}
 }
