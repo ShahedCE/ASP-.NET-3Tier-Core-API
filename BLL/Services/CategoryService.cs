@@ -73,12 +73,35 @@ namespace BLL.Services
 			return datadto;
 		}
 
-		/*public CategoryProductDTO FindByNameWithProducts(string name)
+		public CategoryProductDTO GetWithProducts(int id)
+		{
+			var data= factory.CategoryFeature().GetWithProducts(id);
+			var datadto = MapperConfig.GetMapper().Map<CategoryProductDTO>(data);
+			return datadto;
+
+		}
+
+		public CategoryProductDTO FindByNameWithProducts(string name)
 		{
 			var data = factory.CategoryFeature().FindByNameWitProducts(name);
 			var mapper = MapperConfig.GetMapper();
 			var datadto = mapper.Map<CategoryProductDTO>(data); //Converting List<Category> to List<CategoryDTO> for the Presentation Layer
 			return datadto;
-		}*/
+		}
+
+		public CategoryDTO FindCategoryByName(string name)
+		{
+			var data= factory.CategoryFeature().FindByName(name);
+			var datadto = MapperConfig.GetMapper().Map<CategoryDTO>(data);
+			return datadto;
+		}
+
+		public CategoryProductDTO HighestProducts()
+		{
+			var data = factory.CategoryFeature().HighestProducts();
+			var mapper = MapperConfig.GetMapper();
+			var datadto = mapper.Map<CategoryProductDTO>(data); //Converting List<Category> to List<CategoryDTO> for the Presentation Layer
+			return datadto;
+		}
 	}
 }

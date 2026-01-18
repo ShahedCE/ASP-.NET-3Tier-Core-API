@@ -19,6 +19,8 @@ namespace DAL.Repos
 			this.db = db;  
 		}
 
+
+		//Basic CRUD Operations
 		public bool Create(Category c)
 		{
 			db.Categories.Add(c);
@@ -27,13 +29,9 @@ namespace DAL.Repos
 		}
 		public List<Category> Get()
 		{
-			return db.Categories.Include(cat=> cat.Products).ToList();
+			return db.Categories.ToList();
 		}
 
-		public List<Category> GetWithProducts()
-		{
-			 return db.Categories.Include( cat => cat.Products).ToList();
-		}
 		public Category Get(int id)
 		{
 			var category = db.Categories.Find(id);
@@ -57,6 +55,15 @@ namespace DAL.Repos
 
 		}
 
+		//.................Features............
+		//
+		//Get all categories with their products
+		public List<Category> GetWithProducts()
+		{
+			return db.Categories.Include(cat => cat.Products).ToList(); //Include plays eager loading
+		}
+
+		//Get a single category with its products
 		public Category GetWithProducts(int id)
 		{
 			var prod= (from c in db.Categories.Include(cat => cat.Products)
@@ -65,20 +72,23 @@ namespace DAL.Repos
 			return prod;
 		}
 
+		//Find category by name
 		public Category FindByName(string name)
 		{
 			var category = (from c in db.Categories
 							where c.Name.Contains(name)
-							select c).SingleOrDefault();
+							select c).SingleOrDefault();   //If multiple then error occurs, so make logics
 			return category;
 		}
 
+		//Find category by name with its products
 		public Category FindByNameWitProducts(string name)
 		{
 			var cat = db.Categories.Include(cat=> cat.Products).SingleOrDefault(cat=> cat.Name.Contains(name));	
 			return cat;	
 		}
 
+		//Get category with highest number of products
 		public Category HighestProducts()
 		{
 			var cat= (from c in db.Categories.Include(c=>c.Products)

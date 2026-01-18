@@ -3,44 +3,48 @@
   "WorkspaceRootPath": "E:\\Advvanced .Net with C#\\3TierArchi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{520A6166-21AA-4599-A3C9-393054A49425}|APIApp\\APIApp.csproj|e:\\advvanced .net with c#\\3tierarchi\\apiapp\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{520A6166-21AA-4599-A3C9-393054A49425}|APIApp\\APIApp.csproj|solutionrelative:apiapp\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{520A6166-21AA-4599-A3C9-393054A49425}|APIApp\\APIApp.csproj|e:\\advvanced .net with c#\\3tierarchi\\apiapp\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{520A6166-21AA-4599-A3C9-393054A49425}|APIApp\\APIApp.csproj|solutionrelative:apiapp\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F12C1D1-82B5-4DF2-BDA6-1D55559D633F}|DAL\\DAL.csproj|e:\\advvanced .net with c#\\3tierarchi\\dal\\repos\\categoryrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F12C1D1-82B5-4DF2-BDA6-1D55559D633F}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\categoryrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{520A6166-21AA-4599-A3C9-393054A49425}|APIApp\\APIApp.csproj|e:\\advvanced .net with c#\\3tierarchi\\apiapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{520A6166-21AA-4599-A3C9-393054A49425}|APIApp\\APIApp.csproj|solutionrelative:apiapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DF546476-C186-4042-8BB1-3275FE403650}|BLL\\BLL.csproj|e:\\advvanced .net with c#\\3tierarchi\\bll\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DF546476-C186-4042-8BB1-3275FE403650}|BLL\\BLL.csproj|solutionrelative:bll\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF546476-C186-4042-8BB1-3275FE403650}|BLL\\BLL.csproj|e:\\advvanced .net with c#\\3tierarchi\\bll\\dtos\\categoryproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF546476-C186-4042-8BB1-3275FE403650}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\categoryproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF546476-C186-4042-8BB1-3275FE403650}|BLL\\BLL.csproj|e:\\advvanced .net with c#\\3tierarchi\\bll\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF546476-C186-4042-8BB1-3275FE403650}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9F12C1D1-82B5-4DF2-BDA6-1D55559D633F}|DAL\\DAL.csproj|e:\\advvanced .net with c#\\3tierarchi\\dal\\repos\\categoryrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F12C1D1-82B5-4DF2-BDA6-1D55559D633F}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\categoryrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DF546476-C186-4042-8BB1-3275FE403650}|BLL\\BLL.csproj|e:\\advvanced .net with c#\\3tierarchi\\bll\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DF546476-C186-4042-8BB1-3275FE403650}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F12C1D1-82B5-4DF2-BDA6-1D55559D633F}|DAL\\DAL.csproj|e:\\advvanced .net with c#\\3tierarchi\\dal\\dataaccessfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F12C1D1-82B5-4DF2-BDA6-1D55559D633F}|DAL\\DAL.csproj|solutionrelative:dal\\dataaccessfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DF546476-C186-4042-8BB1-3275FE403650}|BLL\\BLL.csproj|e:\\advvanced .net with c#\\3tierarchi\\bll\\dtos\\categoryproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF546476-C186-4042-8BB1-3275FE403650}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\categoryproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F12C1D1-82B5-4DF2-BDA6-1D55559D633F}|DAL\\DAL.csproj|e:\\advvanced .net with c#\\3tierarchi\\dal\\interfaces\\icategoryfeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F12C1D1-82B5-4DF2-BDA6-1D55559D633F}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\icategoryfeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{520A6166-21AA-4599-A3C9-393054A49425}|APIApp\\APIApp.csproj|e:\\advvanced .net with c#\\3tierarchi\\apiapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{520A6166-21AA-4599-A3C9-393054A49425}|APIApp\\APIApp.csproj|solutionrelative:apiapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9F12C1D1-82B5-4DF2-BDA6-1D55559D633F}|DAL\\DAL.csproj|e:\\advvanced .net with c#\\3tierarchi\\dal\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F12C1D1-82B5-4DF2-BDA6-1D55559D633F}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F12C1D1-82B5-4DF2-BDA6-1D55559D633F}|DAL\\DAL.csproj|e:\\advvanced .net with c#\\3tierarchi\\dal\\interfaces\\icategoryfeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F12C1D1-82B5-4DF2-BDA6-1D55559D633F}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\icategoryfeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DF546476-C186-4042-8BB1-3275FE403650}|BLL\\BLL.csproj|e:\\advvanced .net with c#\\3tierarchi\\bll\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF546476-C186-4042-8BB1-3275FE403650}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F12C1D1-82B5-4DF2-BDA6-1D55559D633F}|DAL\\DAL.csproj|e:\\advvanced .net with c#\\3tierarchi\\dal\\dataaccessfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F12C1D1-82B5-4DF2-BDA6-1D55559D633F}|DAL\\DAL.csproj|solutionrelative:dal\\dataaccessfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9F12C1D1-82B5-4DF2-BDA6-1D55559D633F}|DAL\\DAL.csproj|e:\\advvanced .net with c#\\3tierarchi\\dal\\ef\\pmscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -73,10 +77,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9F12C1D1-82B5-4DF2-BDA6-1D55559D633F}|DAL\\DAL.csproj|e:\\advvanced .net with c#\\3tierarchi\\dal\\repos\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F12C1D1-82B5-4DF2-BDA6-1D55559D633F}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{520A6166-21AA-4599-A3C9-393054A49425}|APIApp\\APIApp.csproj|e:\\advvanced .net with c#\\3tierarchi\\apiapp\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{520A6166-21AA-4599-A3C9-393054A49425}|APIApp\\APIApp.csproj|solutionrelative:apiapp\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -86,11 +86,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "E:\\Advvanced .Net with C#\\3TierArchi\\APIApp\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "APIApp\\Controllers\\CategoryController.cs",
+              "ToolTip": "E:\\Advvanced .Net with C#\\3TierArchi\\APIApp\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "APIApp\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAAwE4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T16:57:10.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "ICategoryFeature.cs",
+              "DocumentMoniker": "E:\\Advvanced .Net with C#\\3TierArchi\\DAL\\Interfaces\\ICategoryFeature.cs",
+              "RelativeDocumentMoniker": "DAL\\Interfaces\\ICategoryFeature.cs",
+              "ToolTip": "E:\\Advvanced .Net with C#\\3TierArchi\\DAL\\Interfaces\\ICategoryFeature.cs",
+              "RelativeToolTip": "DAL\\Interfaces\\ICategoryFeature.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAawAkAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T23:51:17.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "E:\\Advvanced .Net with C#\\3TierArchi\\BLL\\Services\\CategoryService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\CategoryService.cs",
+              "ToolTip": "E:\\Advvanced .Net with C#\\3TierArchi\\BLL\\Services\\CategoryService.cs",
+              "RelativeToolTip": "BLL\\Services\\CategoryService.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAcwGkAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T16:31:05.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CategoryRepo.cs",
+              "DocumentMoniker": "E:\\Advvanced .Net with C#\\3TierArchi\\DAL\\Repos\\CategoryRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Repos\\CategoryRepo.cs",
+              "ToolTip": "E:\\Advvanced .Net with C#\\3TierArchi\\DAL\\Repos\\CategoryRepo.cs",
+              "RelativeToolTip": "DAL\\Repos\\CategoryRepo.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAQwFsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T19:06:44.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "CategoryDTO.cs",
               "DocumentMoniker": "E:\\Advvanced .Net with C#\\3TierArchi\\BLL\\DTOs\\CategoryDTO.cs",
               "RelativeDocumentMoniker": "BLL\\DTOs\\CategoryDTO.cs",
@@ -103,91 +155,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ProductDTO.cs",
-              "DocumentMoniker": "E:\\Advvanced .Net with C#\\3TierArchi\\BLL\\DTOs\\ProductDTO.cs",
-              "RelativeDocumentMoniker": "BLL\\DTOs\\ProductDTO.cs",
-              "ToolTip": "E:\\Advvanced .Net with C#\\3TierArchi\\BLL\\DTOs\\ProductDTO.cs",
-              "RelativeToolTip": "BLL\\DTOs\\ProductDTO.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T18:04:56.559Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CategoryService.cs",
-              "DocumentMoniker": "E:\\Advvanced .Net with C#\\3TierArchi\\BLL\\Services\\CategoryService.cs",
-              "RelativeDocumentMoniker": "BLL\\Services\\CategoryService.cs",
-              "ToolTip": "E:\\Advvanced .Net with C#\\3TierArchi\\BLL\\Services\\CategoryService.cs",
-              "RelativeToolTip": "BLL\\Services\\CategoryService.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAxwEUAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T16:31:05.078Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DataAccessFactory.cs",
-              "DocumentMoniker": "E:\\Advvanced .Net with C#\\3TierArchi\\DAL\\DataAccessFactory.cs",
-              "RelativeDocumentMoniker": "DAL\\DataAccessFactory.cs",
-              "ToolTip": "E:\\Advvanced .Net with C#\\3TierArchi\\DAL\\DataAccessFactory.cs",
-              "RelativeToolTip": "DAL\\DataAccessFactory.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAkwCQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-14T17:10:51.472Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CategoryRepo.cs",
-              "DocumentMoniker": "E:\\Advvanced .Net with C#\\3TierArchi\\DAL\\Repos\\CategoryRepo.cs",
-              "RelativeDocumentMoniker": "DAL\\Repos\\CategoryRepo.cs",
-              "ToolTip": "E:\\Advvanced .Net with C#\\3TierArchi\\DAL\\Repos\\CategoryRepo.cs",
-              "RelativeToolTip": "DAL\\Repos\\CategoryRepo.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAowFsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T19:06:44.187Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\Advvanced .Net with C#\\3TierArchi\\APIApp\\Program.cs",
-              "RelativeDocumentMoniker": "APIApp\\Program.cs",
-              "ToolTip": "E:\\Advvanced .Net with C#\\3TierArchi\\APIApp\\Program.cs",
-              "RelativeToolTip": "APIApp\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T18:10:26.389Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "E:\\Advvanced .Net with C#\\3TierArchi\\APIApp\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "APIApp\\Controllers\\CategoryController.cs",
-              "ToolTip": "E:\\Advvanced .Net with C#\\3TierArchi\\APIApp\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "APIApp\\Controllers\\CategoryController.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAowD8AAAAdAAAAAAAAAA==",
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "E:\\Advvanced .Net with C#\\3TierArchi\\APIApp\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "APIApp\\Controllers\\ProductController.cs",
+              "ToolTip": "E:\\Advvanced .Net with C#\\3TierArchi\\APIApp\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "APIApp\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T16:57:10.51Z",
+              "WhenOpened": "2026-01-12T20:19:46.777Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "CategoryProductDTO.cs",
               "DocumentMoniker": "E:\\Advvanced .Net with C#\\3TierArchi\\BLL\\DTOs\\CategoryProductDTO.cs",
               "RelativeDocumentMoniker": "BLL\\DTOs\\CategoryProductDTO.cs",
               "ToolTip": "E:\\Advvanced .Net with C#\\3TierArchi\\BLL\\DTOs\\CategoryProductDTO.cs",
               "RelativeToolTip": "BLL\\DTOs\\CategoryProductDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-17T00:38:08.502Z",
               "EditorCaption": ""
@@ -200,27 +187,51 @@
               "RelativeDocumentMoniker": "DAL\\Interfaces\\IRepository.cs",
               "ToolTip": "E:\\Advvanced .Net with C#\\3TierArchi\\DAL\\Interfaces\\IRepository.cs",
               "RelativeToolTip": "DAL\\Interfaces\\IRepository.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAIAwwAwAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-14T17:16:23.501Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ICategoryFeature.cs",
-              "DocumentMoniker": "E:\\Advvanced .Net with C#\\3TierArchi\\DAL\\Interfaces\\ICategoryFeature.cs",
-              "RelativeDocumentMoniker": "DAL\\Interfaces\\ICategoryFeature.cs",
-              "ToolTip": "E:\\Advvanced .Net with C#\\3TierArchi\\DAL\\Interfaces\\ICategoryFeature.cs",
-              "RelativeToolTip": "DAL\\Interfaces\\ICategoryFeature.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Advvanced .Net with C#\\3TierArchi\\APIApp\\Program.cs",
+              "RelativeDocumentMoniker": "APIApp\\Program.cs",
+              "ToolTip": "E:\\Advvanced .Net with C#\\3TierArchi\\APIApp\\Program.cs",
+              "RelativeToolTip": "APIApp\\Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T23:51:17.325Z",
+              "WhenOpened": "2026-01-12T18:10:26.389Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "DataAccessFactory.cs",
+              "DocumentMoniker": "E:\\Advvanced .Net with C#\\3TierArchi\\DAL\\DataAccessFactory.cs",
+              "RelativeDocumentMoniker": "DAL\\DataAccessFactory.cs",
+              "ToolTip": "E:\\Advvanced .Net with C#\\3TierArchi\\DAL\\DataAccessFactory.cs",
+              "RelativeToolTip": "DAL\\DataAccessFactory.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAkwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T17:10:51.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductDTO.cs",
+              "DocumentMoniker": "E:\\Advvanced .Net with C#\\3TierArchi\\BLL\\DTOs\\ProductDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\ProductDTO.cs",
+              "ToolTip": "E:\\Advvanced .Net with C#\\3TierArchi\\BLL\\DTOs\\ProductDTO.cs",
+              "RelativeToolTip": "BLL\\DTOs\\ProductDTO.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T18:04:56.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "PMSContext.cs",
               "DocumentMoniker": "E:\\Advvanced .Net with C#\\3TierArchi\\DAL\\EF\\PMSContext.cs",
               "RelativeDocumentMoniker": "DAL\\EF\\PMSContext.cs",
@@ -228,12 +239,11 @@
               "RelativeToolTip": "DAL\\EF\\PMSContext.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAgwBQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T17:05:44.031Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-09T17:05:44.031Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Product.cs",
               "DocumentMoniker": "E:\\Advvanced .Net with C#\\3TierArchi\\DAL\\EF\\Models\\Product.cs",
               "RelativeDocumentMoniker": "DAL\\EF\\Models\\Product.cs",
@@ -241,12 +251,11 @@
               "RelativeToolTip": "DAL\\EF\\Models\\Product.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAYwBcAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T23:45:11.074Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-16T23:45:11.074Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Category.cs",
               "DocumentMoniker": "E:\\Advvanced .Net with C#\\3TierArchi\\DAL\\EF\\Models\\Category.cs",
               "RelativeDocumentMoniker": "DAL\\EF\\Models\\Category.cs",
@@ -254,12 +263,11 @@
               "RelativeToolTip": "DAL\\EF\\Models\\Category.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAgwB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T23:40:49.686Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-16T23:40:49.686Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "ProductRepo.cs",
               "DocumentMoniker": "E:\\Advvanced .Net with C#\\3TierArchi\\DAL\\Repos\\ProductRepo.cs",
               "RelativeDocumentMoniker": "DAL\\Repos\\ProductRepo.cs",
@@ -267,12 +275,11 @@
               "RelativeToolTip": "DAL\\Repos\\ProductRepo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T17:51:16.596Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-12T17:51:16.596Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\Advvanced .Net with C#\\3TierArchi\\APIApp\\appsettings.json",
               "RelativeDocumentMoniker": "APIApp\\appsettings.json",
@@ -280,12 +287,11 @@
               "RelativeToolTip": "APIApp\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-01-17T01:06:56.676Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-17T01:06:56.676Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "MapperConfig.cs",
               "DocumentMoniker": "E:\\Advvanced .Net with C#\\3TierArchi\\BLL\\MapperConfig.cs",
               "RelativeDocumentMoniker": "BLL\\MapperConfig.cs",
@@ -293,12 +299,11 @@
               "RelativeToolTip": "BLL\\MapperConfig.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T16:20:49.076Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-12T16:20:49.076Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "CategoryRepoFile.cs",
               "DocumentMoniker": "E:\\Advvanced .Net with C#\\3TierArchi\\DAL\\Repos\\CategoryRepoFile.cs",
               "RelativeDocumentMoniker": "DAL\\Repos\\CategoryRepoFile.cs",
@@ -306,12 +311,11 @@
               "RelativeToolTip": "DAL\\Repos\\CategoryRepoFile.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-14T17:31:02.528Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-14T17:31:02.528Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Repository.cs",
               "DocumentMoniker": "E:\\Advvanced .Net with C#\\3TierArchi\\DAL\\Repos\\Repository.cs",
               "RelativeDocumentMoniker": "DAL\\Repos\\Repository.cs",
@@ -319,20 +323,7 @@
               "RelativeToolTip": "DAL\\Repos\\Repository.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T20:24:10.119Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "E:\\Advvanced .Net with C#\\3TierArchi\\APIApp\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "APIApp\\Controllers\\ProductController.cs",
-              "ToolTip": "E:\\Advvanced .Net with C#\\3TierArchi\\APIApp\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "APIApp\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwC8AAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T20:19:46.777Z"
+              "WhenOpened": "2026-01-13T20:24:10.119Z"
             }
           ]
         }

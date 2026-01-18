@@ -75,13 +75,41 @@ namespace APIApp.Controllers
 			}
 		}
 
+		//Features...........
+		[HttpGet("find/{name}")]
+		public IActionResult FindCatByName(string name)
+		{
+			 var data= service.FindCategoryByName(name);	
+			return Ok(data);
+		}
+
 		[HttpGet("all/withproducts")]
 		public IActionResult GetCategoriesWithProducts()
 		{
 			var data = service.GetWithProducts();
 			return Ok(data);
 		}
+		[HttpGet("all/withproducts/{id}")]
+		public IActionResult GetCategoryWithProducts(int id)
+		{
+			var data = service.GetWithProducts(id);
+			return Ok(data);
+		}
 
-	
-	}
+		[HttpGet("findbyname/{name}")]
+		public IActionResult FindProductsByCategoryName(string name)
+		{
+			var data = service.FindByNameWithProducts(name);
+			return Ok(data);
+		}
+
+		[HttpGet("highest/products")]
+		public IActionResult CategoryWithHighestProducts()
+		{
+			var data = service.HighestProducts();
+			return Ok(data);
+		}
+
+
+		}
 }
