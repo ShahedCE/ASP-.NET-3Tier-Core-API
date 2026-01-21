@@ -13,7 +13,7 @@ namespace BLL.Services
 	public class CategoryService
 	{
 		DataAccessFactory factory;  //Dependency Inversion 
-		public CategoryService(DataAccessFactory factory) // Receiving the Repon instance from DI container
+		public CategoryService(DataAccessFactory factory) // Receiving the instance from DI container
 		{
 			this.factory = factory;  
 		}

@@ -37,7 +37,7 @@ namespace APIApp.Controllers
 
 			if (res == true)
 			{
-				return Ok(new { Msg = "Category Created", Success = res });
+				return Ok(new { Msg = "Category Created" });
 			}
 			else
 			{
@@ -52,7 +52,7 @@ namespace APIApp.Controllers
 
 			if (res == true)
 			{
-				return Ok(new { Msg = "Category Updated", Success = res });
+				return Ok(new { Msg = "Category Updated"});
 			}
 			else
 			{
@@ -67,7 +67,7 @@ namespace APIApp.Controllers
 
 			if (res == true)
 			{
-				return Ok(new { Msg = "Category Deleted", Success = res });
+				return Ok(new { Msg = "Category Deleted"});
 			}
 			else
 			{

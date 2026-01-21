@@ -35,6 +35,11 @@ namespace DAL.Repos
 		public Category Get(int id)
 		{
 			var category = db.Categories.Find(id);
+			if (category == null)
+			{
+			 throw new Exception("Category not found");
+			}	
+
 			return category;
 		}
 			public bool Update(Category c)
@@ -60,7 +65,7 @@ namespace DAL.Repos
 		//Get all categories with their products
 		public List<Category> GetWithProducts()
 		{
-			return db.Categories.Include(cat => cat.Products).ToList(); //Include plays eager loading
+			return db.Categories.Include(cat => cat.Products).ToList(); //Include for eager loading
 		}
 
 		//Get a single category with its products
@@ -69,6 +74,10 @@ namespace DAL.Repos
 			var prod= (from c in db.Categories.Include(cat => cat.Products)
 					  where c.Id == id
 					  select c).SingleOrDefault();
+			if(prod == null)
+			{
+				throw new Exception("Products not found");
+			}
 			return prod;
 		}
 
@@ -78,6 +87,10 @@ namespace DAL.Repos
 			var category = (from c in db.Categories
 							where c.Name.Contains(name)
 							select c).SingleOrDefault();   //If multiple then error occurs, so make logics
+			if (category == null)
+			{
+				throw new Exception("Category not found");
+			}
 			return category;
 		}
 
@@ -85,6 +98,10 @@ namespace DAL.Repos
 		public Category FindByNameWitProducts(string name)
 		{
 			var cat = db.Categories.Include(cat=> cat.Products).SingleOrDefault(cat=> cat.Name.Contains(name));	
+			if(cat == null)
+			{
+				throw new Exception("Category not found");
+			}
 			return cat;	
 		}
 
@@ -93,6 +110,10 @@ namespace DAL.Repos
 		{
 			var cat= (from c in db.Categories.Include(c=>c.Products)
 		 orderby  c.Products.Count descending select c).FirstOrDefault();
+			if(cat == null)
+			{
+				throw new Exception("Category not found");
+			}
 			return cat;
 
 

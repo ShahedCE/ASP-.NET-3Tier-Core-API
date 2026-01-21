@@ -13,7 +13,7 @@ namespace DAL.EF.Models
 		public int Id { get; set; }
 		[StringLength(50)]
 		[Column(TypeName = "varchar")]
-		public string Name { get; set; }
+		public string Name { get; set; } =null!;
 		public decimal Price { get; set; }
 		public int  Quantity { get; set; }
 
@@ -23,7 +23,13 @@ namespace DAL.EF.Models
 		[ForeignKey("Category")] //Specifies that CId is a foreign key for the Category navigation property
 		public int CId { get; set; } // or direct CategoryId foreign key property 
 
-		public virtual Category Category { get; set; } //Navigation property, makes the relationship
+		public virtual Category Category { get; set; } = null!; //Navigation property, makes the relationship
+
+		public virtual List<OrderItem> OrderItems { get; set; }  //Navigation property, makes the relationship
+		public Product()
+		{
+			OrderItems = new List<OrderItem>();
+		}	
 
 	}
 }

@@ -10,7 +10,7 @@ namespace DAL.Repos
 {
 	public class Repository <T> where T : class
 	{
-		DbSet<T> table;
+		/*DbSet<T> table;
 		PMSContext db;
 		public Repository(PMSContext db)
 		{
@@ -46,6 +46,6 @@ namespace DAL.Repos
 			var ex= table.Find(id);
 			table.Remove(ex);
 			return db.SaveChanges() > 0;
-		}
+		}*/
 	}
 }

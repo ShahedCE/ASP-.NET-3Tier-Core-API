@@ -43,10 +43,28 @@ namespace BLL.Services
 			return factory.ProductData().Update(modeldata);
 		}
 
-		public bool Detele(int id)
+		public bool Delete(int id)
 		{
 			return factory.ProductData().Delete(id);
 		}
-		
+
+		//Calling Feature method from DAL
+
+		public ProductCategoryDTO GetCategoryByProductId(int id)
+		{
+			var  data = factory.ProductFeature().GetCategoryByProductId(id);
+			var datadto= MapperConfig.GetMapper().Map<ProductCategoryDTO>(data);	
+			return datadto;
+		}
+
+
+		//Filtering Products by Name with Category
+		public List<ProductCategoryDTO> GetCategoryByProductName(string name)
+		{
+			var data= factory.ProductFeature().GetCategoryByProductName(name);
+			var map= MapperConfig.GetMapper().Map<List<ProductCategoryDTO>>(data);
+			return map;
+		}
+
 	}
 }

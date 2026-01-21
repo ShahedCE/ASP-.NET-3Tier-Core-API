@@ -33,6 +33,10 @@ namespace APIApp.Controllers
 		[HttpPost("create")]
 		public IActionResult Create(ProductDTO p)
 		{
+			if (!ModelState.IsValid)
+			{
+				return BadRequest(ModelState);
+			}
 			var res= service.Create(p);
 			return Ok(res);
 		}
@@ -46,8 +50,24 @@ namespace APIApp.Controllers
 		[HttpDelete("delete/{id}")]
 		public IActionResult Delete(int id)
 		{
-			var res= service.Detele(id);
+			var res= service.Delete(id);
 			return Ok(res);
+		}
+
+		//Calling Feature methods
+
+		[HttpGet("categorybyid/{id}")]
+		public IActionResult GetCategory(int id)
+		{
+			var data = service.GetCategoryByProductId(id);
+			return Ok(data);
+		}
+
+		[HttpGet("categorybyname/{name}")]
+		public IActionResult GetCategory(string name)
+		{
+			var data = service.GetCategoryByProductName(name);
+			return Ok(data);
 		}
 	}
 }
