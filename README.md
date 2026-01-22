@@ -1,27 +1,88 @@
-# .NET Core Web API – 3 Tier Architecture
+.NET Core Web API – 3-Tier E-Commerce System
 
-This project is a **.NET Core Web API** built using the **3-Tier Architecture** pattern.  
-The goal of this project is to maintain **clean separation of concerns**, improve **scalability**, **maintainability**, and follow **best practices** for backend development.
+This project is a .NET Core Web API built using the 3-Tier Architecture pattern for an E-Commerce platform.
+The goal is to ensure clean separation of concerns, scalability, maintainability, and adherence to backend best practices.
 
----
+** Features
 
-##  Architecture Overview
+Category & Product Management
 
-The application follows a **3-Tier Architecture**:
+Customer Orders
 
-1. **Presentation Layer (API Layer)**
-   - ASP.NET Core Web API
-   - Handles HTTP requests and responses
-   - Does not contain business logic
+Order Items Handling
 
-2. **Business Logic Layer (BLL / Service Layer)**
-   - Contains application business rules
-   - Acts as a bridge between API and Data Access Layer
-   - Uses interfaces for loose coupling
+Billing & Payment System
 
-3. **Data Access Layer (DAL / Repository Layer)**
-   - Handles database operations
-   - Uses Repository Pattern
-   - Can be implemented using **Entity Framework Core / Dapper / ADO.NET**
+Status-based Payment Flow (Pending → Placed → Paid)
 
+Repository Pattern Implementation
 
+Entity Framework Core Support
+
+Clean Architecture & SOLID Principles
+
+ --Architecture Overview
+
+The application follows a 3-Tier Architecture:
+
+1.Presentation Layer (API Layer)
+
+ASP.NET Core Web API
+
+Handles HTTP requests and responses
+
+No business logic
+
+2. Business Logic Layer (BLL / Service Layer)
+
+Contains business rules
+
+Validates data and handles workflows
+
+Uses interfaces for loose coupling
+
+3. Data Access Layer (DAL / Repository Layer)
+
+Handles database operations
+
+Implements Repository Pattern
+
+Uses Entity Framework Core
+
+**Entity Relationships
+
+Category → Product (One-to-Many)
+
+Order → OrderItems (One-to-Many)
+
+Order → Payment (One-to-One)
+
+** Billing Flow
+
+Order is created
+
+Order items are added
+
+Total amount is calculated
+
+Payment record is generated
+
+Payment status updates:
+
+Pending → Placed → Paid
+
+*** Technologies Used
+
+ASP.NET Core Web API
+
+Entity Framework Core
+
+Microsoft SQL Server
+
+Repository Pattern
+
+Dependency Injection
+
+LINQ
+
+C#
