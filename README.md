@@ -1,9 +1,9 @@
-.NET Core Web API – 3-Tier E-Commerce System
+## .NET Core Web API – 3-Tier E-Commerce System
 
 This project is a .NET Core Web API built using the 3-Tier Architecture pattern for an E-Commerce platform.
 The goal is to ensure clean separation of concerns, scalability, maintainability, and adherence to backend best practices.
 
-** Features
+## ** Features
 
 Category & Product Management
 
